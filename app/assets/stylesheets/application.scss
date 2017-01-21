@@ -32,13 +32,12 @@
    transition: 0.5s;
  }
 
- .jumbotron {
-   background-image:url('http://y.photo.qq.com/img?s=n0m7YMg0L&l=y.jpg');
+ .jumbotron1 {
+   background-image:url('https://ww2.sinaimg.cn/large/006tNc79gy1fbybmficoij30go0bx405.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 110px;
  }
-
 
  .jumbotron h1, .jumbotron .h1 {
     text-align: left;//文字左对齐
@@ -110,7 +109,7 @@
    color: #a35904;//字体颜色
    padding: 10px 15px;//上下10px,左右15px
    line-height: 30px;//文字行高
-   
+
 }
 
 .navbar-brand > img {
@@ -182,7 +181,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 62px;
     color: #a35904;
     background-color: #f7d76f;
     text-align: center;
@@ -193,3 +192,13 @@
 .body {height:100%; }
 
 .overlay {position: fixed; top: 0; bottom:0;background:#fff; width: 300px; z-index:-1;}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
