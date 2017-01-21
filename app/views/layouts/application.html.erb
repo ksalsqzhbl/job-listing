@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>真·24K Offer</title>
+    <title>小悟空Offer</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="shortcut icon" href="/images/favicon.ico">
+
   </head>
 
   <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <%= render "common/navbar" %>
-        </div>
-        <%= render "common/flashes" %>
-        <%= yield %>
-    </div>
+          <div class="container-fluid">
+              <div class="row">
+                  <%= render "common/navbar" %>
+              </div>
 
-            <%= render "common/footer" %>
+              <%= yield %>
+              <%= render "common/footer" %>
+          </div>
 
-  </body>
+    </body>
 </html>
