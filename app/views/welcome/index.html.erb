@@ -1,19 +1,122 @@
 <div class="jumbotron">
-    <h1 class="title"><img src='<%= image_url 'monkey-head.png' %>' >小悟空Offer</h1>
-    <p class="slogan">最短时间提供理想的应聘机会。</p>
+    <h1 class="title">小悟空Offer</h1>
+    <p class="slogan">最短时间提供理想的职位／外包机会。</p>
     <p class="slogan">
     <br/>
-      <img src='<%= image_url 'monkey-head.png' %>' >当天将您的申请提交给心仪的企业
+      <i class="fa fa-eye"></i>当天将您的申请提交给心仪的企业
     <br/><br/>
-     <i class="fa fa-eye"></i>一周内回复初审结果及面试邮件。
+     <i class="fa fa-eye"></i>一周内反馈初审结果及通知邮件。
     <br/><br/>
+
      <i class="fa fa-eye"></i>您可以自由接受或拒绝面试邀请。
-     <br/>
-     <a class="navbar-brand" href="/">快来加入</a>
+
+     <a class="navbar-brand" href="/">快来加入，成长为winner</a>
+
     <br/><br/><br/>
-     只要有一技之长，或者想努力成长，在这里就能找到成为winner的机会。驾上筋斗云加入我们吧！
+     驾上筋斗云加入我们吧！
    </p>
 </div>
+
+<!-- Add this css File in head tag-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+
+
+ <!--
+        If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+        Slide effect: slide, fade
+        Text Align: slide_style_center, slide_style_left, slide_style_right
+        Add Text Animation: https://daneden.github.io/animate.css/
+        -->
+
+
+        <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                    <!-- Slide Background -->
+                    <img src="https://images.pexels.com/photos/48726/pexels-photo-48726.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_left">
+                                <h1 data-animation="animated zoomInRight">小悟空Offer</h1>
+                                <p data-animation="animated fadeInLeft">技能变现，成长为winner，你只差一个机会。<br/></br>寻找小伙伴抱团取暖，我们来帮您。</br></br>想尽快抓住理想的选择？</p>
+                                <a href="／users/sign_up" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">快加入我们吧！</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="https://images.pexels.com/photos/207990/pexels-photo-207990.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated flipInX">Bootstrap touch slider</h1>
+                        <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+                        <a href="／jobs" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">找工作</a>
+                        <a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">招伙伴</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="https://images.pexels.com/photos/144345/pexels-photo-144345.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_right">
+                        <h1 data-animation="animated zoomInLeft">Beautiful Animations</h1>
+                        <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p>
+                        <a href="／jobs" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">找工作</a>
+                        <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">招伙伴</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+
+            </div><!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div> <!-- End  bootstrap-touch-slider Slider -->
+
+
+
+
+          <div style="text-align: center;margin-top: 150px; margin-bottom:100px"><h3>Check this in <a href="http://bootsnipp.com/fullscreen/Padax"target="_blank"> Full Screen Preview </a> And Drag the Slider ;)</h3> / Fade slide Also <a href="http://bootsnipp.com/snippets/OR9l8"target="_blank">  Available here </a></div>
+          <div style="text-align: center;margin-top: 150px; margin-bottom:100px"> | <a href="http://bootstrapthemes.co/item/bootstrap-carousel-touch-slider-with-text-animation/"target="_blank"> Snippet By Bootstrapthemes.co </a> |</div>
 
 
   <section id="company">
@@ -21,7 +124,7 @@
       <div class="row">
         <div class="col-sm-4 ">
           <div class="thumbnail">
-            <img src="http://y.photo.qq.com/img?s=VfqbvmFVI&l=y.jpg" alt="search" class = "img-thhumbnail">
+            <img src="https://ww4.sinaimg.cn/large/006tNc79gy1fby1sr3f9rj300g00g0nz.jpg" alt="search" class = "img-thhumbnail">
             <div class="caption">
               <h3>江苏苏州高新区</h3>
             </div>
@@ -46,3 +149,86 @@
       </div>
     </div>
   </section>
+
+  <section id="categories">
+  		<div class="container">
+  			<h1>分类招聘</h1>
+
+        <hr />
+  			<div class="row">
+  				<div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/developer-ac84a939e20d112db95de311187f647597a23ac2b7cab79722b9b8aaa623b873.png" alt="Developer" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_developer">Developer</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+
+  			  <div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/customer-service-8a256aa99672f4be66ed42c683dcad0fa975250f462b838004724344ee392a86.png" alt="Customer service" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_customer-service">Customer Service</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+
+  			  <div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/healthcare-9058db05cb405971176c826b739b6c479869cf4aa1bb00903e4517c83453d5b5.png" alt="Healthcare" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_healthcare">Health Care</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+
+  				<div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/sales-marketing-9984c78c11e5648e1116842198ffc5f5d0a1c29af7b3d4362e24f6bca2ba13c3.png" alt="Sales marketing" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_sales-marketing">Sales-Marketing</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-6 col-md-3">
+  			   <div class="thumbnail">
+  			      <img src="/assets/lawyer-a1d8f53664be570c07a8483410ebf17793a538590925562975f25a8688a60e6c.png" alt="Lawyer" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_legal">Legal</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+
+  			  <div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/non-profit-a9afe2abaa4225da8534e7fb60ab2afdc47942928956db9308b407d83b4cf7fb.png" alt="Non profit" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_non-profit">Nonprofit</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+
+  			  <div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/reunion-c54f75459afc21e2c267668dcc23d2047af0e813f60aa2f78656d11dafe0e300.png" alt="Reunion" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_human-resource">Human Resources</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+
+  				<div class="col-sm-6 col-md-3">
+  			    <div class="thumbnail">
+  			      <img src="/assets/design-42c7af34424d4939ac702c7d06e8a9cdcc1fa69807975ef28425884c2652dca9.png" alt="Design" />
+  			      <div class="caption">
+  			        <h4><a href="/jobs?order=by_design">Design</a></h4>
+  			      </div>
+  			    </div>
+  			  </div>
+  			</div>
+  		</div>
+
+  	</section>
