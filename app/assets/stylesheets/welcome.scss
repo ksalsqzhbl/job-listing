@@ -120,7 +120,7 @@
 /*---------- INDICATORS CONTROL ----------*/
 .indicators-line > .carousel-indicators{
     right: 45%;
-    bottom: 8%;
+    bottom: 5%;
     left: auto;
     width: 90%;
     height: 20px;
@@ -132,7 +132,7 @@
     padding-right: 10px;
     padding-top: 1px;
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
 }
 .indicators-line > .carousel-indicators li{
     padding: 0;
