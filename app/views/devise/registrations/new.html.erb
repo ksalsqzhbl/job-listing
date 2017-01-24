@@ -1,0 +1,92 @@
+<!-- <h2>Sign up</h2>
+
+<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :email, required: true, autofocus: true %>
+    <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
+    <%= f.input :password_confirmation, required: true %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Sign up" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>职由-自由你的生活 </title>
+        <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="u6OBZ2FuRHdcS8ie/T2Fx00SyRoBcvUw4IVCjjUozsD60kzrCjdw/hu49FBry0+6B/es7pj8/2cjo58y7wocKA==" />
+
+        <link rel="stylesheet" media="all" href="/assets/application-5d2a3f2d0a73d825a9b5a26b7a101e61fb32bee7fdcc356c806c14312c1bc446.css" data-turbolinks-track="reload" />
+        <script src="/assets/application-6b03dbc718404614fce77b30762dbf5a2fd3be1906cc1b8df9fac210b99d4f00.js" data-turbolinks-track="reload"></script>
+
+    </head>
+
+
+         <body>
+
+    <div class="jumbotron1">
+      <br>
+      <br>
+      <br>
+
+<div class="container page-wrap">
+
+    	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+              <div style="text-align:center" class="col-xs-12">
+                <h2><a  class="active" id="login-form-link">欢迎加入小悟空</a></h2>
+               <hr>
+              </div>
+						</div>
+
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+                <form novalidate="novalidate" class="simple_form new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="W1rMqgv3xNpVt86wsJaBDSj5rZ4hzdl9nkFZOROTCIsaKwEmYK7wUxJE8n4mYEtwYhzIarhD0ypdZ4SFybHaYw==" />
+
+                  <div class="form-inputs">
+            <div class="form-group email required user_email"><label class="control-label email required" for="user_email"><abbr title="required">*</abbr> 电子邮箱</label><input class="form-control string email required string email required form-control" autofocus="autofocus" required="required" aria-required="true" placeholder="请输入电子邮箱" type="email" value="" name="user[email]" id="user_email" /></div>
+            <div class="form-group password required user_password"><label class="control-label password required" for="user_password"><abbr title="required">*</abbr> 密码</label><input class="form-control password required form-group password required user_password" required="required" aria-required="true" placeholder="密码至少6位" type="password" name="user[password]" id="user_password" /></div>
+            <div class="form-group password required user_password_confirmation"><label class="control-label password required" for="user_password_confirmation"><abbr title="required">*</abbr> 密码确认</label><input class="form-control password required form-group password required user_password_confirmation" required="required" aria-required="true" placeholder="再输入一遍确认密码" type="password" name="user[password_confirmation]" id="user_password_confirmation" /></div>
+          </div>
+								<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+                          <div class="form-actions">
+                            <input type="submit" name="commit" value="马上注册" class="btn btn-default form-control btn btn-register" data-disable-with="马上注册" />
+                          </div>
+											</div>
+										</div>
+									</div>
+</form>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>      <br>
+        <br>
+        <br>
+        <br>    <br>
+</div>
+</body>
+
+
+</html>

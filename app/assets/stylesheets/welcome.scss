@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .bs-slider{
     overflow: hidden;
     max-height: 700px;
@@ -26,7 +27,7 @@
 }
 .bs-slider > .carousel-inner > .item > img,
 .bs-slider > .carousel-inner > .item > a > img {
-    margin: auto;
+    margin: fixed;
     width: 100% !important;
 }
 
