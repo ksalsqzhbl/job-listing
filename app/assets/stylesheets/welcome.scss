@@ -203,7 +203,7 @@
 
 .slide-text {
     left: 0;
-    top: 25%;
+    top: 2%;
     right: 0;
     margin: auto;
     padding: 10px;
@@ -221,6 +221,19 @@
     font-style: normal;
     line-height: 84px;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+.slide-text > h2{
+
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 50px;
+    margin-bottom: 0px;
     letter-spacing: 1px;
     display: inline-block;
     -webkit-animation-delay: 0.7s;
